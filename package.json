@@ -1,0 +1,19 @@
+{
+  "name": "boulangerie1860",
+  "version": "1.0.0",
+  "description": "Site de la boulangerie 1860",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanChosson/boulangerie1860.git"
+  },
+  "author": "Jonathan Chosson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanChosson/boulangerie1860/issues"
+  },
+  "homepage": "https://github.com/JonathanChosson/boulangerie1860#readme"
+}
