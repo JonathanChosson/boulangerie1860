@@ -1,0 +1,23 @@
+body * {
+    font-family: 'Special Elite', cursive !important;
+    font-size: 1.4rem !important;
+}
+
+.caroussel{
+    height: 50vh;
+    width: 90vw;
+    overflow:hidden ;
+    border: 3px solid $couleurSecondaire;
+    border-radius: 10px;
+    padding: 0px !important;
+    &__contains{
+        height: 50vh;
+        width: 90vw;
+        overflow:hidden ;
+        &__image{
+            height: 50vh;
+            width: 90vw;
+            object-fit: cover;
+        }
+    }
+}

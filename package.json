@@ -4,7 +4,7 @@
   "description": "Site de la boulangerie 1860",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/style.css"
+    "sass": "sass --watch ./public/sass/main.scss:./public/style.css"
   },
   "repository": {
     "type": "git",
