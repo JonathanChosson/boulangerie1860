@@ -3,6 +3,22 @@ body * {
     font-size: 1.4rem !important;
 }
 
+.couleurPrimaire{
+    color : $couleurPrimaire;
+}
+
+.couleurSecondaire{
+    color: $couleurSecondaire;
+}
+
+.couleurTertiaire{
+    color: $couleurTertiaire
+}
+
+.underline{
+    border-bottom: 2px solid $couleurSecondaire;
+}
+
 .caroussel{
     height: 50vh;
     width: 95vw;
@@ -19,6 +35,21 @@ body * {
             height: 50vh;
             width: 95vw;
             object-fit: cover;
+        }
+    }
+}
+
+.quiSommesNous{
+    &__content{
+        display: flex;
+        // flex-flow: row wrap;
+        &__img{
+            object-fit: contain;
+            width: 30%;
+            border-radius: 10px;
+        }
+        &__p{
+            margin-left: 5px;
         }
     }
 }

@@ -75,6 +75,22 @@ body * {
   font-size: 1.4rem !important;
 }
 
+.couleurPrimaire {
+  color: #212529;
+}
+
+.couleurSecondaire {
+  color: #D9BFA0;
+}
+
+.couleurTertiaire {
+  color: #6c757d;
+}
+
+.underline {
+  border-bottom: 2px solid #D9BFA0;
+}
+
 .caroussel {
   height: 50vh;
   width: 95vw;
@@ -93,6 +109,18 @@ body * {
   height: 50vh;
   width: 95vw;
   object-fit: cover;
+}
+
+.quiSommesNous__content {
+  display: flex;
+}
+.quiSommesNous__content__img {
+  object-fit: contain;
+  width: 30%;
+  border-radius: 10px;
+}
+.quiSommesNous__content__p {
+  margin-left: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
