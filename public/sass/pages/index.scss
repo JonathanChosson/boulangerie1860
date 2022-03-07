@@ -5,18 +5,19 @@ body * {
 
 .caroussel{
     height: 50vh;
-    width: 90vw;
+    width: 95vw;
     overflow:hidden ;
     border: 3px solid $couleurSecondaire;
     border-radius: 10px;
     padding: 0px !important;
     &__contains{
         height: 50vh;
-        width: 90vw;
+        width: 300%;
+        display: inline-block;
         overflow:hidden ;
         &__image{
             height: 50vh;
-            width: 90vw;
+            width: 95vw;
             object-fit: cover;
         }
     }
