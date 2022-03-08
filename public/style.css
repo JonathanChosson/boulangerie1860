@@ -89,6 +89,7 @@ body * {
 
 .underline {
   border-bottom: 2px solid #D9BFA0;
+  margin-top: 20px;
 }
 
 .caroussel {
@@ -99,6 +100,7 @@ body * {
   border-radius: 10px;
   padding: 0px !important;
   position: relative;
+  margin: auto;
 }
 .caroussel__logo {
   height: 50vh;
@@ -123,15 +125,78 @@ body * {
 .quiSommesNous__content {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 .quiSommesNous__content__img {
   object-fit: contain;
   width: 30%;
   border-radius: 10px;
+  border: 3px solid #D9BFA0;
 }
 .quiSommesNous__content__p {
-  margin-left: 5px;
+  margin-left: 15px;
+}
+
+.realisations {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.realisations__img {
+  width: 28%;
+  object-fit: cover;
+  margin-top: 15px;
+  border: 3px solid #D9BFA0;
+  border-radius: 10px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 314px;
+  width: 314px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 314px;
+  width: 314px;
+  border: 3px solid #D9BFA0;
+  border-radius: 10px;
+}
+
+.nousTrouver {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nousTrouver__info {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .quiSommesNous__content {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .quiSommesNous__content__img {
+    width: 50%;
+  }
+  .quiSommesNous__content__p {
+    margin: 0px;
+  }
+
+  .realisations__img {
+    width: 48%;
+  }
+
+  .nousTrouver {
+    flex-flow: column wrap;
+  }
+  .nousTrouver__info {
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -17,6 +17,7 @@ body * {
 
 .underline{
     border-bottom: 2px solid $couleurSecondaire;
+    margin-top: 20px;;
 }
 
 .caroussel{
@@ -27,6 +28,7 @@ body * {
     border-radius: 10px;
     padding: 0px !important;
     position: relative;
+    margin: auto;
     &__logo{
         height: 50vh;
         width: 95vw;
@@ -52,15 +54,81 @@ body * {
     &__content{
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         // flex-flow: row wrap;
         &__img{
             object-fit: contain;
             width: 30%;
             border-radius: 10px;
+            border: 3px solid $couleurSecondaire;
         }
         &__p{
-            margin-left: 5px;
+            margin-left: 15px;
+        }
+    }
+}
+
+.realisations{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    &__img{
+        width: 28%;
+        object-fit: cover;
+        margin-top: 15px;
+        border: 3px solid $couleurSecondaire;
+        border-radius: 10px;
+    }
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:314px;
+    width:314px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:314px;
+    width:314px;
+    border: 3px solid $couleurSecondaire;
+    border-radius: 10px;
+}
+
+.nousTrouver{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__info{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .quiSommesNous{
+        &__content{
+            flex-flow: column wrap;
+            align-items: center;
+            &__img{
+                width: 50%;
+            }
+            &__p{
+                margin: 0px;
+            }
+        }
+    }
+    .realisations{
+        &__img{
+            width: 48%;
+        }
+    }
+
+    .nousTrouver{
+        flex-flow: column wrap;
+        &__info{
+            margin-top: 10px;
         }
     }
 }
