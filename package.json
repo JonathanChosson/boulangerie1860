@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JonathanChosson/boulangerie1860/issues"
   },
-  "homepage": "https://github.com/JonathanChosson/boulangerie1860#readme"
+  "homepage": "https://github.com/JonathanChosson/boulangerie1860#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1"
+  }
 }

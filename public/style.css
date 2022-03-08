@@ -175,6 +175,26 @@ body * {
   text-align: center;
 }
 
+.reseaux {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #D9BFA0;
+  border-top: 2px solid #D9BFA0;
+}
+.reseaux__p {
+  margin: 10px;
+}
+
+.fa-brands {
+  font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400;
+  color: #D9BFA0;
+  font-size: 3rem !important;
+  margin: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .quiSommesNous__content {
     flex-flow: column wrap;
