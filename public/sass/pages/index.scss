@@ -26,9 +26,18 @@ body * {
     border: 3px solid $couleurSecondaire;
     border-radius: 10px;
     padding: 0px !important;
-    &__contains{
+    position: relative;
+    &__logo{
         height: 50vh;
-        width: 300%;
+        width: 95vw;
+        object-fit: contain;
+        position: absolute;
+        z-index: 0;
+    }
+    &__contains{
+        position: absolute;
+        z-index: 1;
+        height: 50vh;
         display: inline-block;
         overflow:hidden ;
         &__image{
@@ -42,6 +51,8 @@ body * {
 .quiSommesNous{
     &__content{
         display: flex;
+        justify-content: center;
+        align-items: flex-start;
         // flex-flow: row wrap;
         &__img{
             object-fit: contain;

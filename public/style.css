@@ -98,10 +98,19 @@ body * {
   border: 3px solid #D9BFA0;
   border-radius: 10px;
   padding: 0px !important;
+  position: relative;
+}
+.caroussel__logo {
+  height: 50vh;
+  width: 95vw;
+  object-fit: contain;
+  position: absolute;
+  z-index: 0;
 }
 .caroussel__contains {
+  position: absolute;
+  z-index: 1;
   height: 50vh;
-  width: 300%;
   display: inline-block;
   overflow: hidden;
 }
@@ -113,6 +122,8 @@ body * {
 
 .quiSommesNous__content {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 .quiSommesNous__content__img {
   object-fit: contain;
