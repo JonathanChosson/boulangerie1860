@@ -21,17 +21,17 @@ body * {
 }
 
 .caroussel{
-    height: 50vh;
-    width: 95vw;
+    height: 80vh;
+    width: 99vw;
     overflow:hidden ;
-    border: 3px solid $couleurSecondaire;
-    border-radius: 10px;
+    // border: 3px solid $couleurSecondaire;
+    // border-radius: 10px;
     padding: 0px !important;
     position: relative;
     margin: auto;
     &__logo{
-        height: 50vh;
-        width: 95vw;
+        height: 80vh;
+        width: 100vw;
         object-fit: contain;
         position: absolute;
         z-index: 0;
@@ -39,12 +39,12 @@ body * {
     &__contains{
         position: absolute;
         z-index: 1;
-        height: 50vh;
+        height: 80vh;
         display: inline-block;
         overflow:hidden ;
         &__image{
-            height: 50vh;
-            width: 95vw;
+            height: 80vh;
+            width: 100vw;
             object-fit: cover;
         }
     }
