@@ -79,7 +79,7 @@ body * {
   color: #212529;
 }
 
-.couleurSecondaire {
+.couleurSecondaire, .active {
   color: #D9BFA0;
 }
 
@@ -133,6 +133,18 @@ body * {
 }
 .quiSommesNous__content__p {
   margin-left: 15px;
+}
+
+.ulRea {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.ulRea__li {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1rem !important;
 }
 
 .realisations {
