@@ -73,6 +73,7 @@ body * {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    padding: 0px;
     &__li{
         cursor: pointer;
         padding: 10px;
@@ -84,12 +85,33 @@ body * {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    &__img{
+    align-items: center;
+    &__div{
         width: 28%;
-        object-fit: cover;
-        margin-top: 15px;
-        border: 3px solid $couleurSecondaire;
-        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 10px;
+        &__p{
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-bottom: -7px;
+            color: $couleurSecondaire;
+            background-color: $couleurPrimaire;
+            border-width: 3px 3px 0px 3px ;
+            border-style: solid;
+            border-color: $couleurSecondaire;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        &__img{
+            width: 100%;
+            object-fit: cover;
+            border-width: 0px 3px 3px 3px ;
+            border-style: solid;
+            border-color: $couleurSecondaire;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
     }
 }
 

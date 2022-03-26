@@ -58,7 +58,7 @@ function caroussel(){
 afficheRealisation(Array.from(listCategorie).find(cat => cat.classList.contains('active')).outerText)
 
 /**
- * Listenner sur les clic de catégorie
+ * Listener sur les clic de catégorie
  */
 listCategorie.forEach(cat => {
     cat.addEventListener('click', function (){
@@ -99,7 +99,12 @@ function afficheRealisation(catActive){
  * @returns html composant pour l'image
  */
 function composantImage(image){
-    return `<img src="${image.url}" alt="${image.name}" class="realisations__img">`;
+    return `
+    <div class="realisations__div">
+        <p class="realisations__div__p">${image.name}</p>
+        <img src="${image.url}" alt="${image.name}" class="realisations__div__img">
+    </div>
+    `;
 }
 
 
