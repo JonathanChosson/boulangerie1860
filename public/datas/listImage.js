@@ -37,7 +37,7 @@ const listImage = [
     {
         cat : 'Viennoiseries',
         name: 'Viennoiseries 2',
-        url: './public/images/realisations/Viennoiseries2.jpg'
+        url: './public/images/realisations/Viennoiseries2.JPG'
     },
     {
         cat : 'Viennoiseries',
@@ -122,7 +122,7 @@ const listImage = [
     {
         cat : 'Snacking',
         name: 'Snacking 1',
-        url: './public/images/realisations/Snacking1.jpg'
+        url: './public/images/realisations/Snacking1.JPG'
     },
     {
         cat : 'Snacking',
